@@ -1,0 +1,27 @@
+:root {
+    --primaryColor: #00eaff;
+    --primaryHover: hsl(185,92%,41%);
+    --secondaryColor: rgb(150,162,188);
+    --paragraphColor: rgb(127,127,175);
+    --BgColor: rgb(117, 85, 85);
+    --formColor: rgb(117, 85, 85);
+    --projectCardColor: rgb(117, 85, 85);
+    --textColor: #020305;
+    --headerHeight:3rem;
+  }
+  
+  .footer {
+    width: 100%;
+    text-align: center;
+    background: rgb(102, 59, 65);
+    margin-top: 1rem;
+    padding: 1rem 0;
+    color: black;
+    font-weight: 750;
+  }
+  .footer span {
+    text-align: center;
+    color: black;
+    opacity: 0.5;
+    font-size: 16px;
+  }
