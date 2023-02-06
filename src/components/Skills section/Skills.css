@@ -31,12 +31,12 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
   }
-  .skills .skillsContainer .skillGroup .generalSkills .singleSkills {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card {
     display: grid;
     align-items: center;
     justify-content: center;
   }
-  .skills .skillsContainer .skillGroup .generalSkills .singleSkills .iconBox {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card .iconBox {
     position: relative;
     height: 70px;
     width: 50px;
@@ -48,11 +48,11 @@
     overflow: hidden;
     z-index: 500;
   }
-  .skills .skillsContainer .skillGroup .generalSkills .singleSkills .iconBox .icon {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card .iconBox .icon {
     font-size: 28px;
     z-index: 900;
   }
-  .skills .skillsContainer .skillGroup .generalSkills .singleSkills .iconBox::before {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card .iconBox::before {
     content: "";
     height: 0;
     width: 100%;
@@ -63,7 +63,7 @@
     z-index: 1;
     transition: 0.1s;
   }
-  .skills .skillsContainer .skillGroup .generalSkills .singleSkills .iconBox::after {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card .iconBox::after {
     content: "";
     height: 0;
     width: 100%;
@@ -74,17 +74,17 @@
     z-index: 1;
     transition: 0.5s;
   }
-  .skills .skillsContainer .skillGroup .generalSkills .singleSkills .iconBox:hover {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card .iconBox:hover {
     color: var(--textColor);
     border: 2px solid var(--primaryColor);
   }
-  .skills .skillsContainer .skillGroup .generalSkills .singleSkills .iconBox:hover .icon {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card .iconBox:hover .icon {
     color: var(--primaryColor);
   }
-  .skills .skillsContainer .skillGroup .generalSkills .singleSkills .iconBox:hover::before, .skills .skillsContainer .skillGroup .generalSkills .singleSkills .iconBox:hover::after {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card .iconBox:hover::before, .skills .skillsContainer .skillGroup .generalSkills .singleSkills .iconBox:hover::after {
     height: 100%;
   }
-  .skills .skillsContainer .skillGroup .generalSkills .singleSkills .skillName {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card .skills-card-name {
     padding-top: 0.5rem;
     text-align: center;
     font-weight: 600;
@@ -92,7 +92,7 @@
     /* font-size: 15px; */
   }
 
-  .calendar{
+  .react-activity-calendar{
     background-color: rgb(206, 168, 168);
     color: rgb(0, 0, 0);
   }
@@ -175,7 +175,7 @@
       padding-right: 5rem;
       row-gap: 1.5rem;
     }
-    .skills .skillsContainer .skillGroup .generalSkills .singleSkills {
+    .skills .skillsContainer .skillGroup .generalSkills .skills-card {
       align-items: flex-start;
       align-content: flex-start;
       justify-content: flex-start;
@@ -199,7 +199,7 @@
     margin-top: 50px;
   }
   
-  .calendar{
+  .react-activity-calendar{
     width: 100%;
     border: 3px rgb(255, 255, 255) solid ;
     padding:15px;

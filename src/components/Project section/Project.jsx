@@ -25,8 +25,8 @@ const data = [
   {
     id:2,
     image:img2,
-    demo:'stirring-taffy-661f29.netlify.app',
-    liveLink:'stirring-taffy-661f29.netlify.app',
+    demo:'https://stirring-taffy-661f29.netlify.app/',
+    liveLink:'https://stirring-taffy-661f29.netlify.app/',
     github:'https://github.com/SauravBhardwaj1/bustling-lumber-7924',
     title:'DNA News',
     desc:'A clone website of DNA News is a large worldwide News website for live and latest news.',
@@ -91,7 +91,7 @@ const Projects = () => {
             id,github,image,liveLink,desc,demo,title,tech1,tech2,tech3,tech4
           })=>{
             return(
-              <div key={id} className="singleProject">
+              <div key={id} class="project-card">
                <div className="externalLinks flex">
                </div>
                <div className="imgDiv">
@@ -99,17 +99,17 @@ const Projects = () => {
                   <img src={image} alt="title" />
                 </a>
                </div>
-               <div className="projectTitle">
+               <div class="project-title">
                 <h3>{title}</h3>
                </div>
-               <div className="desc">
+               <div class="project-description">
                 {desc}
                </div>
                <div className="youtubeIcon">
-                  <a href={demo} target='_blank'><VscLiveShare className='icon'/></a>                  
-                  <a style={{marginLeft:"210px"}} href={github} target='_blank'><FiGithub className='icon'/></a>                  
+                  <a class="project-deployed-link" href={demo} target='_blank'><VscLiveShare className='icon'/></a>                  
+                  <a class="project-github-link" style={{marginLeft:"210px"}} href={github} target='_blank'><FiGithub className='icon'/></a>                  
                 </div>
-               <div className="technologies flex">
+               <div class="project-tech-stack">
                 <small>{tech1}</small>
                 <small>{tech2}</small>
                 <small>{tech3}</small>

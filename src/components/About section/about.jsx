@@ -4,7 +4,7 @@ import { TbCloudDownload } from "react-icons/tb";
 import "./about.css";
 const About = () => {
   return (
-    <section id="about" className="about section container">
+    <section id="about" className="about section">
       <div className="sectionTitle">
         <span className="titleNumber"></span>
         <h5 className="titleText">
@@ -16,7 +16,7 @@ const About = () => {
       </div>
 
       <div className="sectionContent grid">
-        <div className="textSection">
+        <div id="user-detail-intro" className="textSection">
           <h4>
           Motivated and innovative aspiring full-stack web developer with hands-on experience (1200+ hours) in
             building websites with MERN stack and various web technologies including HTML, CSS, and JS. 
@@ -24,9 +24,10 @@ const About = () => {
             Curious to learn about emerging web technologies. Looking forward to make a significant contribution
             to an organization through dedicated efforts
           </h4>
-          <div className="aboutBtn">
+          <div id="resume-button-2" className="aboutBtn">
             <a href="Saurav_Bhardwaj_Resume.pdf" 
               download="Saurav_Bhardwaj_Resume.pdf" 
+              id="resume-link-2"
               className="flex" style={{
                 color:"black"
             }}>
@@ -35,7 +36,7 @@ const About = () => {
           </div>
         </div>
         <div className="aboutImgDiv">
-          <img src="https://avatars.githubusercontent.com/u/108116026?v=4" alt="saurav" className="aboutImg"/>
+          <img src="https://avatars.githubusercontent.com/u/108116026?v=4" alt="saurav"  class="home-img"/>
         </div>
       </div>
     </section>

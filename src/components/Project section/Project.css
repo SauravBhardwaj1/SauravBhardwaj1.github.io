@@ -16,7 +16,7 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
   }
-  .projects .projectContainer .singleProject {
+  .projects .projectContainer .project-card {
     display: grid;
     gap: 0.5rem;
     padding: 0.8rem 0.8rem;
@@ -24,17 +24,17 @@
     height: 100%;
     background: rgb(170, 166, 166);
   }
-  .projects .projectContainer .singleProject .externalLinks {
+  .projects .projectContainer .project-card .externalLinks {
     width: 100%;
     justify-content: space-between;
   }
-  .projects .projectContainer .singleProject .youtubeIcon .githubIcon a {
+  .projects .projectContainer .project-card .youtubeIcon .githubIcon a {
     color: var(--primaryColor);
   }
-  .projects .projectContainer .singleProject .youtubeIcon .githubIcon a:hover {
+  .projects .projectContainer .project-card .youtubeIcon .githubIcon a:hover {
     color: var(--primaryHover);
   }
-  .projects .projectContainer .singleProject:hover {
+  .projects .projectContainer .project-card:hover {
     transform: translateY(-7px);
     border-bottom: 2px solid var(--primaryColor);
   }
@@ -52,20 +52,20 @@
        object-fit: cover;
     border-radius: 5px;
   }
-  .projects .projectContainer .projectTitle {
+  .projects .projectContainer .project-title {
     display: flex;
     font-weight: 600;
     color: var(--textColor);
   }
-  .projects .projectContainer .desc {
+  .projects .projectContainer .project-description {
     font-weight: 600;
     color: var(--secondaryColor);
   }
-  .projects .projectContainer .technologies {
+  .projects .projectContainer .project-tech-stack {
     gap: 0.5rem;
     justify-content: flex-end;
   }
-  .projects .projectContainer .technologies small {
+  .projects .projectContainer .project-tech-stack small {
     color: var(--primaryColor);
     font-weight: 600;
     font-size:15px;
@@ -95,10 +95,10 @@
     .projects .projectContainer {
       grid-template-columns: repeat(3, 1fr);
     }
-    .projects .projectContainer .singleProject .desc {
+    .projects .projectContainer .project-card .project-description {
       font-size: 17px;
     }
-    .projects .projectContainer .singleProject .desc .technologies small {
+    .projects .projectContainer .project-card .project-description .project-tech-stack small {
       font-size: 15px;
     }
   }

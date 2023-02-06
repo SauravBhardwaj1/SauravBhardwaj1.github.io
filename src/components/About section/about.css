@@ -53,7 +53,7 @@
     display: grid;
     border: 2px solid var(--projectCardColor) ;
   }
-  .about .sectionContent .aboutImgDiv .aboutImg {
+  .about .sectionContent .aboutImgDiv .home-img {
     width: 297px;
     height: 297px;
     -o-object-fit: cover;

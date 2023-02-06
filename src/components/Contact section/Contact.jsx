@@ -1,6 +1,7 @@
 import { AiFillGithub, AiFillLinkedin, AiOutlineInstagram } from 'react-icons/ai'
 import {TfiEmail} from "react-icons/tfi"
 import { TbArrowBigRightLines } from 'react-icons/tb'
+import {IoIosCall} from "react-icons/io"
 import './Contact.css'
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
@@ -39,7 +40,7 @@ const Contact = () => {
               saurav-bhardwaj-63230a133
               </span>
               <div>
-                <a href="https://www.linkedin.com/in/saurav-bhardwaj-63230a133/" className='flex' target="_blank">
+                <a id="contact-linkedin" href="https://www.linkedin.com/in/saurav-bhardwaj-63230a133/" className='flex' target="_blank">
                   Send Message<TbArrowBigRightLines className='icon'/>
                 </a>
               </div>
@@ -53,7 +54,7 @@ const Contact = () => {
                 SauravBhardwaj1
               </span>
               <div>
-                <a href="https://github.com/SauravBhardwaj1" className='flex' target="_blank">
+                <a id="contact-github" href="https://github.com/SauravBhardwaj1" className='flex' target="_blank">
                   Send Message<TbArrowBigRightLines className='icon'/>
                 </a>
               </div>
@@ -72,7 +73,7 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-            <div className="card">
+            <div id="contact-email" className="card">
               <div>
                 <TfiEmail className='icon'/>
               </div>
@@ -81,9 +82,7 @@ const Contact = () => {
                 sauravbhardwaj836@gmail.com
               </span>
               <div>
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" className='flex' target="_blank">
-                  Send Message<TbArrowBigRightLines className='icon'/>
-                </a>
+              <a id="contact-phone" href='tel:9599844246'>9599844246 <IoIosCall className='icon'  />   </a> 
               </div>
             </div>
           </div>

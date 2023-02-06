@@ -23,31 +23,31 @@ const Navbar = () => {
     window.addEventListener('scroll',addBg)
   return (
     
-       <header id='nav-menu' className={activeHeader}>
-     <div className="logoDiv">
-        <h1 className='logo'>
+       <header  className={activeHeader}>
+     <div id='nav-menu' className="logoDiv">
+        <h1 user-detail-name className='logo'>
         <a href='#home'> SAURAV </a>
         </h1>
      </div>
      <div className={active}>
         <ul onClick={removeNavBar} className="navLists">
             <li className="navItem">
-                <a href="#home" className="navLink"><span className='headerNumber'></span>Home</a>
+                <a href="#home" className="nav-link home"><span className='headerNumber'></span>Home</a>
             </li>
             <li className="navItem">
-                <a href="#about" className="navLink"><span className='headerNumber'></span> About</a>
+                <a href="#about" className="nav-link about"><span className='headerNumber'></span> About</a>
             </li>
             <li className="navItem">
-                <a href="#skills" className="navLink"><span className='headerNumber'></span> Skills</a>
+                <a href="#skills" className="nav-link skills"><span className='headerNumber'></span> Skills</a>
             </li>
             <li className="navItem">
-                <a href="#projects" className="navLink"><span className='headerNumber'></span> Projects</a>
+                <a href="#projects" className="nav-link projects"><span className='headerNumber'></span> Projects</a>
             </li>
             <li className="navItem">
-                <a href="#contact" className="navLink"><span className='headerNumber'></span> Contact</a>
+                <a href="#contact" className="nav-link contact"><span className='headerNumber'></span> Contact</a>
             </li>
-            <button className='btn'>
-             <a href='Saurav_Bhardwaj_Resume.pdf' download>Resume</a>
+            <button id="resume-button-1" className='nav-link resume'>
+             <a  id="resume-link-1" href='Saurav_Bhardwaj_Resume.pdf' download>Resume</a>
             </button>
         </ul>
         <div onClick={removeNavBar} className="closeNavBar">

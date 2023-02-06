@@ -31,6 +31,17 @@
     cursor: pointer;
   }
   
+  #resume-button-1{
+    padding:10px;
+    font-size: 14px;
+    border: 0.5px solid rgb(226, 204, 204);
+    border-radius: 5px;
+  }
+  #resume-button-1 a{
+    color: #080e0e;
+    font-size: 15px;
+  }
+  
   @media screen and (max-width: 768px) {
     .header .navBar {
       background: var(projectCardColor);
@@ -59,15 +70,15 @@
     .header .navBar .navLists .navItem {
       padding: 1rem 0;
     }
-    .header .navBar .navLists .navItem .navLink {
+    .header .navBar .navLists .navItem .nav-link {
       color: black;
       font-size: 1.2rem;
       font-weight: 600;
     }
-    .header .navBar .navLists .navItem .navLink:hover {
+    .header .navBar .navLists .navItem .nav-link :hover {
       color: var(--primaryColor);
     }
-    .header .navBar .navLists .navItem .navLink .headerNumber {
+    .header .navBar .navLists .navItem .nav-link .headerNumber {
       color: var(--primaryHover);
     }
     .header .navBar .navLists .btn {
@@ -88,7 +99,17 @@
       top: 6rem;
     }
   }
-  
+   
+  #resume-button-1{
+    padding:10px;
+    font-size: 14px;
+    border: 0.5px solid rgb(226, 204, 204);
+    border-radius: 5px;
+  }
+  #resume-button-1 a{
+    color: #080e0e;
+    font-size: 15px;
+  }
   .activeHeader {
     background-color: var(--projectCardColor);
     box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
@@ -111,11 +132,11 @@
     .header .navBar .navItem {
       padding: 0 1rem;
     }
-    .header .navBar .navItem .navLink {
+    .header .navBar .navItem .nav-link {
       color: var(--textColor);
       font-size: 1.2rem;
     }
-    .header .navBar .navItem .navLink:hover {
+    .header .navBar .navItem .nav-link:hover {
       color: var(--primaryColor);
     }
     .header .navBar .btn {
@@ -124,6 +145,17 @@
     .header .navBar .btn a {
       color: var(--primaryColor);
     }
+  }
+   
+  #resume-button-1{
+    padding:10px;
+    font-size: 14px;
+    border: 0.5px solid rgb(226, 204, 204);
+    border-radius: 5px;
+  }
+  #resume-button-1 a{
+    color: #080e0e;
+    font-size: 15px;
   }
   @media screen and (min-width: 960px) {
     .header {
@@ -135,4 +167,15 @@
     .header .navBar .navLists .navItem {
       padding: 0 2rem;
     }
+     
+  #resume-button-1{
+    padding:10px;
+    font-size: 14px;
+    border: 0.5px solid rgb(226, 204, 204);
+    border-radius: 5px;
+  }
+  #resume-button-1 a{
+    color: #080e0e;
+    font-size: 15px;
+  }
 } 
