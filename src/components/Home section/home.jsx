@@ -21,8 +21,8 @@ const Home = () => {
         </p>
         <div className="lowerHomeSection">
           <button className="contactBtn"> 
-            <a href="#contact" className="flex" style={{color:"black"}}>
-              Contact Me <TbArrowBigRightLines className='icon'/>
+            <a href="#contact" className="flex" style={{color:"white"}}>
+              Contact Me <TbArrowBigRightLines style={{color:"white", background:"#030e18"}} className='icon'/>
             </a>
           </button>
           <div className="scrollDiv">

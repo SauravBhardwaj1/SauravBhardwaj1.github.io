@@ -27,37 +27,37 @@ const Skills = () => {
           </div>
           <div className="generalSkills">
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <AiFillHtml5 className='icon' />
               </div>
               <span class="skills-card-name">HTML5</span>
             </div>
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <IoLogoCss3 className='icon' />
               </div>
               <span class="skills-card-name">Css3</span>
             </div>
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <SiStyledcomponents className='icon' />
               </div>
               <span  class="skills-card-name">Styled<br></br>Component</span>
             </div>
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <TbBrandNextjs className='icon' />
               </div>
               <span class="skills-card-name">NextJs</span>
             </div>
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <IoLogoJavascript className='icon' />
               </div>
               <span class="skills-card-name">JavaScript</span>
             </div>
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <TbBrandReactNative className='icon' />
               </div>
               <span class="skills-card-name">React</span>
@@ -71,37 +71,37 @@ const Skills = () => {
           </div>
           <div className="generalSkills">
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <SiRedux className='icon' />
               </div>
               <span class="skills-card-name">Redux</span>
             </div>
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <IoLogoNodejs className='icon' />
               </div>
               <span class="skills-card-name">NodeJs</span>
             </div>
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <SiExpress className='icon' />
               </div>
               <span class="skills-card-name">ExpressJs</span>
             </div>
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <SiMongodb className='icon' />
               </div>
               <span class="skills-card-name">MongoDB</span>
             </div>
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <SiCypress className='icon' />
               </div>
               <span class="skills-card-name">Cypress</span>
             </div>
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <GrMysql className='icon' />
               </div>
               <span class="skills-card-name">Mysql</span>
@@ -114,37 +114,37 @@ const Skills = () => {
           </div>
           <div className="generalSkills">
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <AiFillGithub className='icon' />
               </div>
               <span class="skills-card-name">GitHub</span>
             </div>
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <AiFillGitlab className='icon' />
               </div>
               <span class="skills-card-name">Git</span>
             </div>
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <SiFigma className='icon' />
               </div>
               <span class="skills-card-name">Figma</span>
             </div>
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <IoLogoWordpress className='icon' />
               </div>
               <span class="skills-card-name">Wordpress</span>
             </div>
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <SiChakraui className='icon' />
               </div>
               <span class="skills-card-name">ChakraUI</span>
             </div>
             <div className="skills-card">
-              <div className="iconBox flex">
+              <div className="skills-card-img flex">
                 <SiBootstrap className='icon' />
               </div>
               <span class="skills-card-name">Bootstrap</span>
@@ -155,13 +155,13 @@ const Skills = () => {
       <br></br>
       <div className="education">
         <h1 style={{color:"white"}}>Saurav Bhardwaj Github Statistics</h1>
-        <div  id="github-stats-card">
+        <div id="github-stats-card">
           <div class="react-activity-calendar">
             <GitHubCalendar username="SauravBhardwaj1" year={new Date().getFullYear()} blockMargin={7}
               color="#00eaff"
               responsive={true} />
           </div>
-          <div class="stats" style={{marginTop:"30px"}}>           
+          <div id="github-streak-stats" class="stats" style={{marginTop:"30px"}}>           
             <img id="github-top-langs"
               src="https://github-readme-streak-stats.herokuapp.com?user=SauravBhardwaj1&theme=algolia&hide_border=false&include_all_commits=true&count_private=true&show_icons=true" />
           </div>

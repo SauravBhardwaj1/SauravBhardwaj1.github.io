@@ -36,7 +36,7 @@
     align-items: center;
     justify-content: center;
   }
-  .skills .skillsContainer .skillGroup .generalSkills .skills-card .iconBox {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card .skills-card-img {
     position: relative;
     height: 70px;
     width: 50px;
@@ -48,11 +48,11 @@
     overflow: hidden;
     z-index: 500;
   }
-  .skills .skillsContainer .skillGroup .generalSkills .skills-card .iconBox .icon {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card .skills-card-img .icon {
     font-size: 28px;
     z-index: 900;
   }
-  .skills .skillsContainer .skillGroup .generalSkills .skills-card .iconBox::before {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card .skills-card-img::before {
     content: "";
     height: 0;
     width: 100%;
@@ -63,7 +63,7 @@
     z-index: 1;
     transition: 0.1s;
   }
-  .skills .skillsContainer .skillGroup .generalSkills .skills-card .iconBox::after {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card .skills-card-img::after {
     content: "";
     height: 0;
     width: 100%;
@@ -74,14 +74,14 @@
     z-index: 1;
     transition: 0.5s;
   }
-  .skills .skillsContainer .skillGroup .generalSkills .skills-card .iconBox:hover {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card .skills-card-img:hover {
     color: var(--textColor);
     border: 2px solid var(--primaryColor);
   }
-  .skills .skillsContainer .skillGroup .generalSkills .skills-card .iconBox:hover .icon {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card .skills-card-img:hover .icon {
     color: var(--primaryColor);
   }
-  .skills .skillsContainer .skillGroup .generalSkills .skills-card .iconBox:hover::before, .skills .skillsContainer .skillGroup .generalSkills .singleSkills .iconBox:hover::after {
+  .skills .skillsContainer .skillGroup .generalSkills .skills-card .skills-card-img:hover::before, .skills .skillsContainer .skillGroup .generalSkills .singleSkills .skills-card-img:hover::after {
     height: 100%;
   }
   .skills .skillsContainer .skillGroup .generalSkills .skills-card .skills-card-name {
@@ -98,6 +98,9 @@
   }
   .education h1{
     color: black;
+  }
+  #github-top-langs{
+    background-color: #072340;
   }
   
   @media screen and (min-width: 480px) {
@@ -206,13 +209,13 @@
     border-radius: 10px;
   }
   
-  .stats{
+  #github-streak-stats{
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  .stats>img{
+  #github-streak-stats>img{
     max-width: 100%;
     height: auto;
   }

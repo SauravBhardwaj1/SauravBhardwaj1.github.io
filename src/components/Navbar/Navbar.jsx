@@ -20,34 +20,38 @@ const Navbar = () => {
         }
     }
 
+    const handleClick = ()=>{
+        window.open("https://drive.google.com/file/d/1GnVC62T_0odDeWZkom_CAfdC_pRWJgT-/view?usp=sharing","_blank", "noreferrer")
+    }
+
     window.addEventListener('scroll',addBg)
   return (
     
        <header  className={activeHeader}>
-     <div id='nav-menu' className="logoDiv">
-        <h1 user-detail-name className='logo'>
-        <a href='#home'> SAURAV </a>
-        </h1>
-     </div>
+        <div id='nav-menu'>
+            <h1 id="user-detail-name">
+                <a href='#home'> SAURAV </a>
+            </h1>
+        </div>
      <div className={active}>
         <ul onClick={removeNavBar} className="navLists">
             <li className="navItem">
-                <a href="#home" className="nav-link home"><span className='headerNumber'></span>Home</a>
+                <a href="#home" className="nav-link home">Home</a>
             </li>
             <li className="navItem">
-                <a href="#about" className="nav-link about"><span className='headerNumber'></span> About</a>
+                <a href="#about" className="nav-link about"> About</a>
             </li>
             <li className="navItem">
-                <a href="#skills" className="nav-link skills"><span className='headerNumber'></span> Skills</a>
+                <a href="#skills" className="nav-link skills"> Skills</a>
             </li>
             <li className="navItem">
-                <a href="#projects" className="nav-link projects"><span className='headerNumber'></span> Projects</a>
+                <a href="#projects" className="nav-link projects"> Projects</a>
             </li>
             <li className="navItem">
-                <a href="#contact" className="nav-link contact"><span className='headerNumber'></span> Contact</a>
+                <a href="#contact" className="nav-link contact"> Contact</a>
             </li>
-            <button id="resume-button-1" className='nav-link resume'>
-             <a  id="resume-link-1" href='Saurav_Bhardwaj_Resume.pdf' download>Resume</a>
+            <button onClick={handleClick} id="resume-button-1">
+             <a class="nav-link resume" href='Saurav_Bhardwaj_Resume.pdf' download>Resume</a>
             </button>
         </ul>
         <div onClick={removeNavBar} className="closeNavBar">

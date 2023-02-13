@@ -35,7 +35,7 @@
                     align-items:center;
                     justify-content: center;
                     
-                    .iconBox{
+                    .skills-card-img{
                         position:relative;
                         height:70px;
                         width:50px;
@@ -51,7 +51,7 @@
                             z-index:500;
                         }
                     }
-                    .iconBox::before{
+                    .skills-card-img::before{
                         content:'';
                         height:0;
                         width:100%;
@@ -62,7 +62,7 @@
                         z-index:1;
                         transition: .2s;
                     }
-                    .iconBox::after{
+                    .skills-card-img::after{
                         content:'';
                         height:0;
                         width:100%;
@@ -73,14 +73,14 @@
                         z-index:1;
                         transition: .5s;
                     }
-                    .iconBox:hover{
+                    .skills-card-img:hover{
                         color: var(--textColor);
                         border: 2px solid var(--primaryColor);
                         .icon{
                             color:var(--primaryColor);
                         }
                     }
-                    .iconBox:hover::before, .iconBox:hover::after{
+                    .skills-card-img:hover::before, .skills-card-img:hover::after{
                         height:100%;
                     }
                     .skillName{

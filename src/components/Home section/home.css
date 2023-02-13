@@ -44,20 +44,17 @@
   }
   .home .homeContainer .lowerHomeSection .contactBtn {
     padding: 0.6rem 1rem;
-    background: var(--primaryColor);
-    color: var(--BgColor);
+    background: #030e18;
     border: none;
     outline: none;
   }
-  .home .homeContainer .lowerHomeSection .contactBtn:hover {
-    background: var(--primaryHover);
-  }
+ 
   .home .homeContainer .lowerHomeSection .contactBtn a {
     font-size: 18px;
     font-weight: 600;
     gap: 0.5rem;
     align-items: center;
-    color: var(--BgColor);
+    background-color: #030e18;
   }
   .home .homeContainer .lowerHomeSection .scrollDiv {
     padding-top: 1rem;

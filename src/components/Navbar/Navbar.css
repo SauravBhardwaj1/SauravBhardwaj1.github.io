@@ -5,8 +5,8 @@
     --paragraphColor: rgb(64, 64, 94);
     --BgColor: #9fb0c0;
     --formColor: rgb(200, 210, 221);
-    --projectCardColor: rgb(117, 85, 85);
-    --textColor: #101414;
+    --projectCardColor: #1b2020;
+    --textColor: #0e0f0f;
     --headerHeight:3rem;
     background-color: rgb(231, 219, 219);
   }
@@ -22,13 +22,12 @@
     background-color: #1b2020;
     z-index: 1000;
   }
-  .logoDiv .logo{
-    background-color: #1b2020;
-  }
-  .header .logo a {
-    color: black;
+  
+  .header #user-detail-name a {
+    color: white;
     font-weight: 600;
     cursor: pointer;
+    background-color: #1b2020;
   }
   
   #resume-button-1{
@@ -41,7 +40,19 @@
     color: #080e0e;
     font-size: 15px;
   }
-  
+  .navLists{
+    background-color: #1b2020;
+  }
+  .navLists .navItem {
+    background-color: #1b2020;
+    
+  }
+  .navLists .navItem .nav-link{
+    background-color: #1b2020;
+  }
+  .nav-link a{
+    color: white;    
+  }
   @media screen and (max-width: 768px) {
     .header .navBar {
       background: var(projectCardColor);
@@ -58,6 +69,12 @@
       box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
       z-index: 1000;
     }
+    .header #user-detail-name a {
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+      background-color: #1b2020;
+    }
     .header .navBar .navLists {
       display: flex;
       align-items: center;
@@ -71,7 +88,7 @@
       padding: 1rem 0;
     }
     .header .navBar .navLists .navItem .nav-link {
-      color: black;
+      color: white;
       font-size: 1.2rem;
       font-weight: 600;
     }
@@ -85,7 +102,7 @@
       margin-top: 1rem;
     }
     .header .navBar .navLists .btn a {
-      color: var(--textColor);
+      color: white;
     }
     .header .navBar .closeNavBar {
       position: absolute;
@@ -107,7 +124,7 @@
     border-radius: 5px;
   }
   #resume-button-1 a{
-    color: #080e0e;
+    color: white;
     font-size: 15px;
   }
   .activeHeader {
@@ -133,7 +150,7 @@
       padding: 0 1rem;
     }
     .header .navBar .navItem .nav-link {
-      color: var(--textColor);
+      color: white;
       font-size: 1.2rem;
     }
     .header .navBar .navItem .nav-link:hover {

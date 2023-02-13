@@ -3,6 +3,10 @@ import { TbCloudDownload } from "react-icons/tb";
 
 import "./about.css";
 const About = () => {
+  const handleClick = ()=>{
+    window.open("https://drive.google.com/file/d/1GnVC62T_0odDeWZkom_CAfdC_pRWJgT-/view?usp=sharing","_blank", "noreferrer")
+}
+
   return (
     <section id="about" className="about section">
       <div className="sectionTitle">
@@ -24,16 +28,14 @@ const About = () => {
             Curious to learn about emerging web technologies. Looking forward to make a significant contribution
             to an organization through dedicated efforts
           </h4>
-          <div id="resume-button-2" className="aboutBtn">
+          <button onClick={handleClick} id="resume-button-2" className="aboutBtn">
             <a href="Saurav_Bhardwaj_Resume.pdf" 
               download="Saurav_Bhardwaj_Resume.pdf" 
               id="resume-link-2"
-              className="flex" style={{
-                color:"black"
-            }}>
-              Download CV <TbCloudDownload className='icon'/>
+              className="flex" >
+              Download CV <TbCloudDownload style={{color:"white", background:"#030e18"}} className='icon'/>
             </a>
-          </div>
+          </button>
         </div>
         <div className="aboutImgDiv">
           <img src="https://avatars.githubusercontent.com/u/108116026?v=4" alt="saurav"  class="home-img"/>

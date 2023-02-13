@@ -23,18 +23,17 @@
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
-    background: var(--primaryColor);
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
     padding: 10px 15px;
     border-radius: 10px;
-  }
-  .about .sectionContent .textSection .aboutBtn:hover {
-    background: var(--primaryColor);
+    border: 1px solid whitesmoke;
+    background-color: #030e18;
   }
   .about .sectionContent .textSection .aboutBtn a {
-    color: var(--projectCardColor);
+    color: white;
+    background-color: #030e18;
     font-size: 1.2rem;
     font-weight: 600;
     cursor: pointer;
