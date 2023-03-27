@@ -50,8 +50,8 @@ const Navbar = () => {
             <li className="navItem">
                 <a href="#contact" className="nav-link contact"> Contact</a>
             </li>
-            <button onClick={handleClick} id="resume-button-1">
-             <a class="nav-link resume" href='Saurav_Bhardwaj_Resume.pdf' download>Resume</a>
+            <button onClick={handleClick} id="resume-button-1" >
+             <a class="nav-link resume" id="resume-link-1" href='Saurav_Bhardwaj_Resume.pdf' download>Resume</a>
             </button>
         </ul>
         <div onClick={removeNavBar} className="closeNavBar">

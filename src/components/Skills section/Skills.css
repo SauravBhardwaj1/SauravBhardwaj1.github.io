@@ -99,9 +99,7 @@
   .education h1{
     color: black;
   }
-  #github-top-langs{
-    background-color: #072340;
-  }
+ 
   
   @media screen and (min-width: 480px) {
     .skills .skillsContainer .generalSkills {

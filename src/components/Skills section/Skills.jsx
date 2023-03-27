@@ -162,9 +162,12 @@ const Skills = () => {
               responsive={true} />
           </div>
           <div id="github-streak-stats" class="stats" style={{marginTop:"30px"}}>           
-            <img id="github-top-langs"
-              src="https://github-readme-streak-stats.herokuapp.com?user=SauravBhardwaj1&theme=algolia&hide_border=false&include_all_commits=true&count_private=true&show_icons=true" />
+            <img  src="https://github-readme-streak-stats.herokuapp.com?user=SauravBhardwaj1&theme=violet-punch&mode=weekly" alt='github' />
           </div>
+          <div id="github-top-langs" style={{marginTop:"20px"}}>         
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SauravBhardwaj1&&hide_progress=true" alt='lang' />
+          </div>
+
         </div>
 
       </div>
