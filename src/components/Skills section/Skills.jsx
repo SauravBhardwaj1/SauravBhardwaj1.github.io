@@ -155,17 +155,20 @@ const Skills = () => {
       <br></br>
       <div className="education">
         <h1 style={{color:"white"}}>Saurav Bhardwaj Github Statistics</h1>
-        <div id="github-stats-card">
-          <div class="react-activity-calendar">
+        <div >
+          <div   class="react-activity-calendar">
             <GitHubCalendar username="SauravBhardwaj1" year={new Date().getFullYear()} blockMargin={7}
               color="#00eaff"
               responsive={true} />
           </div>
-          <div id="github-streak-stats" class="stats" style={{marginTop:"30px"}}>           
-            <img  src="https://github-readme-streak-stats.herokuapp.com?user=SauravBhardwaj1&theme=violet-punch&mode=weekly" alt='github' />
+          <div  style={{marginTop:"30px"}}>           
+            <img  id="github-streak-stats"  src="https://github-readme-streak-stats.herokuapp.com?user=SauravBhardwaj1&theme=violet-punch&mode=weekly" alt='github' />
           </div>
-          <div id="github-top-langs" style={{marginTop:"20px"}}>         
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SauravBhardwaj1&&hide_progress=true" alt='lang' />
+          <div style={{marginTop:"30px"}}>
+            <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=SauravBhardwaj1&show_icons=true&theme=violet-punch" alt="stats card" />
+          </div>
+          <div  style={{marginTop:"20px"}}>         
+            <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SauravBhardwaj1&&hide_progress=true" alt='lang' />
           </div>
 
         </div>
